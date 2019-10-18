@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff444444">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="55dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+
+
+            <TextView
+                android:id="@+id/judulIntent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:layout_marginBottom="15dp"
+                android:textSize="30dp"
+                android:text="BROADCAST RECEIVER"
+                />
+
+            <TextView
+                android:id="@+id/linkIntent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="15dp"
+                android:text="Contoh Syntax :"
+                />
+
+            <TextView
+                android:id="@+id/syntaxIntent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="15dp"
+                android:text="@string/syntaxBroadcastreceiver"
+                />
+
+            <TextView
+                android:id="@+id/linkIntent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="15dp"
+                android:text="Link Materi :"
+                />
+
+            <TextView
+                android:id="@+id/linkIntent2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:justificationMode="inter_word"
+                android:layout_marginBottom="30dp"
+                android:text="https://wirasetiawan.blog/2016/05/02/broadcast-receiver-di-android/"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
